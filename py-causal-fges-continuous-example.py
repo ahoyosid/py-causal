@@ -15,7 +15,7 @@ pc.start_vm()
 
 from pycausal import search as s
 
-fges = s.fges(df,penaltydiscount = 2, maxDegree = -1,
+fges = s.fges(df,penaltyDiscount = 2, maxDegree = -1,
             faithfulnessAssumed = True, verbose = True)
 
 fges.getNodes()
